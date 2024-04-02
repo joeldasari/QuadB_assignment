@@ -3,7 +3,7 @@
 This is a React application that allows users to add, edit, mark as completed, and delete tasks. It utilizes Redux Toolkit for state management and localStorage for persistent data.
 
 ### Deployed Link
-[Deployed Link](https://todo-app-quadb-assignment.netlify.app/)
+[Click here](https://todo-app-quadb-assignment.netlify.app/)
 
 ### Features
 
