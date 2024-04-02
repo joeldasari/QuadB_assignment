@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.todo-wrapper {
+  min-height: 100vh;
+  height: max-content;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container {
+  width: 600px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title-logo {
+  height: 30px;
+  object-fit: cover;
+}
+
+.title-description {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-container {
+  margin-top: 32px;
+}
+
+.input-form {
+  display: flex;
+  gap: 6px;
+}
+
+.input-form input {
+  padding: 8px 16px;
+  width: 400px;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.input-form button {
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tasklist-container {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.tasklist-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tasklist-item {
+  box-shadow: 0px 0px 4px lightgray;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.starting-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.no-tasks-yet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productive-img {
+  height: 250px;
+}
+
+.task-options {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.delete-icon {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: rgb(230, 230, 230);
+}
+
+.delete-icon:hover {
+  color: red;
+  transition-duration: 150ms;
+}
+
+.edit-icon {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: rgb(230, 230, 230);
+}
+
+.checkbox-and-task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.edit-icon:hover {
+  color: rgb(0, 183, 255);
+  transition-duration: 150ms;
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.task {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.task-and-time {
+  display: flex;
+  flex-direction: column;
+}
